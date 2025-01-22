@@ -79,7 +79,7 @@ class BotBrain(Agent):
         super().process(context=context)
 
 
-<<<<<<< HEAD
+##<<<<<<< HEAD
 ##
 ## SIMPLEBRAIN
 ##
@@ -159,7 +159,3 @@ class SimpleBrain(BotBrain):
                 context.response = context.best_result
         return 
 
-
-
-=======
->>>>>>> 0de448cf82756a325579acbe1dcd30f769ff3954
