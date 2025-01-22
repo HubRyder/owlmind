@@ -32,7 +32,7 @@ if __name__ == '__main__':
     config = dotenv_values(".env")
     TOKEN = config['TOKEN']
     ## Alternative: Hard-code your TOKEN here and remote the comment:
-    TOKEN="MTMzMTI1NzE3NjgxNTE3MzczNQ.GBj8xS.8RrPb5Sk3DpsG-b4Gg1Ne5HhTBLEHF78XzfCDU"
+    TOKEN='MTMzMTI1NzE3NjgxNTE3MzczNQ.GBj8xS.8RrPb5Sk3DpsG-b4Gg1Ne5HhTBLEHF78XzfCDU'
 
     # Load Simples Bot Brain loading rules from a CSV
     brain = SimpleBrain(id='bot-1')
