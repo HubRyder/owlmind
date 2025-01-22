@@ -101,7 +101,7 @@ class SimpleBrain(BotBrain):
         
     def __init__(self, id):
         super().__init__(id)
-        self += Plan(condition={'message':'_'}, action='PLEASE NO!')
+        self += Plan(condition={'message':'_'}, action=':yipee:')
         return 
 
     def load(self, file_name):
